@@ -160,20 +160,53 @@ address {
   padding: 188px 0;
   background-color: #2e2f42;
   letter-spacing: 0.02em;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/people-office.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1440px;
   background-size: cover;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    width: 320px;
+  }
   .section_first {
-    background-image: url(..);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-phone@2.jpg);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .container {
+    width: 768px;
+  }
+  .section_first {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tab@2.jpg);
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+  .section_first {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-comp@2.jpg);
   }
 }
 
@@ -188,6 +221,12 @@ address {
   line-height: 1.07;
   text-align: center;
   margin-bottom: 48px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .section_h_first {
+    font-size: 36px;
+  }
 }
 
 .class_botoom {
