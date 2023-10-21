@@ -226,6 +226,7 @@ address {
 @media (min-width: 320px) and (max-width: 767px) {
   .section_h_first {
     font-size: 36px;
+    margin-bottom: 72px;
   }
 }
 
