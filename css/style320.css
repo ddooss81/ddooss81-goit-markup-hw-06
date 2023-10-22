@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .container {
     width: 320px;
     padding: 0 16px;
@@ -51,5 +51,26 @@
 
   .second_section_li:last-child {
     margin-bottom: 0;
+  }
+
+  .section_third {
+    padding: 96px 0;
+  }
+
+  .section_third_li {
+    width: 100%;
+    margin: auto 12px;
+    justify-content: center;
+  }
+
+  .section_third_li .img {
+    width: auto;
+    height: auto;
+  }
+
+  .section_third_list {
+    display: grid;
+    grid-template-columns: repeat(1, 264px);
+    margin: auto;
   }
 }
