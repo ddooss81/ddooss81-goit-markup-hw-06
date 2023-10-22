@@ -1,0 +1,55 @@
+@media (min-width: 320px) and (max-width: 768px) {
+  .container {
+    width: 320px;
+    padding: 0 16px;
+  }
+  .section_first {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-phone@2.jpg);
+    padding: 72px 0;
+  }
+  .section_h_first {
+    font-size: 36px;
+    margin-bottom: 72px;
+    line-height: 40px;
+    padding: 0px 60px;
+  }
+
+  .second_section {
+    padding: 96px 0;
+  }
+
+  .second_section_list {
+    display: grid;
+    grid-template-columns: (repeat(1, 288px));
+    width: 288px;
+    gap: 0;
+  }
+
+  .second_section_li {
+    width: auto;
+    margin-bottom: 72px;
+  }
+  .section_two_icon {
+    display: none;
+    margin: 0;
+  }
+
+  .section_second_title {
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.11;
+    margin-top: 0;
+  }
+
+  .paragr_section_two {
+    font-size: 16px;
+  }
+
+  .second_section_li:last-child {
+    margin-bottom: 0;
+  }
+}
