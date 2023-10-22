@@ -53,6 +53,7 @@
     margin-bottom: 0;
   }
 
+  /* section_third */
   .section_third {
     padding: 96px 0;
   }
@@ -72,5 +73,31 @@
     display: grid;
     grid-template-columns: repeat(1, 264px);
     margin: auto;
+  }
+
+  .fourth_pic {
+    width: 360px;
+    height: 300px;
+  }
+
+  /* section fourth */
+  .section_fourth {
+    padding: 96px 0;
+  }
+
+  .section_fourth_list {
+    width: 288px;
+    display: grid;
+    grid-template-columns: repeat(1, 288px);
+    margin: auto;
+  }
+
+  .section_fourth_li {
+    width: 288px;
+  }
+
+  .section_four_img_div {
+    width: 288px;
+    height: 280px;
   }
 }
