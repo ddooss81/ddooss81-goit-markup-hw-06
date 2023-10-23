@@ -131,6 +131,7 @@
     grid-template-columns: repeat(2, 264px);
     /* align-items: center; */
     justify-content: center;
+    gap: 72px 0px;
   }
 
   .footer_div {
@@ -140,7 +141,7 @@
   .logo_footer_start {
     display: block;
     /* text-align: center; */
-    margin-bottom: 16px;
+    margin-bottom: 19px;
   }
 
   .main_footer {
@@ -183,9 +184,9 @@
     width: 264px;
     display: grid;
     grid-template-columns: repeat(2, 265px);
-    justify-items: center;
+    /* justify-items: center; */
     align-items: center;
-    gap: 16px;
+    /* gap: 16px; */
   }
 
   .footer_field_email {
