@@ -105,4 +105,67 @@
     padding: 32px 0px;
     border: none;
   }
+
+  .container_div {
+    display: grid;
+    grid-template-columns: repeat(1, 288px);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer_div {
+    margin: 0;
+  }
+
+  .logo_footer_start {
+    display: block;
+    text-align: center;
+    margin-bottom: 19px;
+  }
+
+  .main_footer {
+    padding: 96px 0;
+  }
+
+  .soc_div_footer {
+    padding: 72px 0;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer_soc_li {
+    justify-content: center;
+  }
+
+  .footer_email {
+    display: grid;
+    grid-template-columns: repeat(1, 288px);
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .footer_email_para {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .modal_form_email {
+    display: grid;
+    grid-template-columns: repeat(1, 288px);
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .footer_field_email {
+    width: 288px;
+  }
+
+  .email_foot_btn {
+    width: 165px;
+  }
 }
