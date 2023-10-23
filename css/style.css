@@ -42,6 +42,7 @@ body {
   line-height: 14.906832%;
   color: rgba(67, 68, 85, 1);
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 header {
