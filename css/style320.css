@@ -185,4 +185,13 @@
   .email_foot_btn {
     width: 165px;
   }
+
+  .modal_main {
+    width: 288px;
+    height: 623px;
+    /* height: 623px;
+    width: 288px;
+    min-height: 623px;
+    min-width: 288px; */
+  }
 }
