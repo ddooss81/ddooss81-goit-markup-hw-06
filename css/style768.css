@@ -3,6 +3,10 @@
     width: 768px;
     padding: 0 16px;
   }
+  .heder_div {
+    border: none;
+    box-shadow: none;
+  }
   .section_first {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -11,11 +15,33 @@
       url(../images/people-office-tab@2.jpg);
     padding: 112px 0;
   }
+
+  .header_menu {
+    margin: auto;
+  }
+
   .section_h_first {
     margin-bottom: 36px;
     padding: 0 0px;
     line-height: 1.07;
     font-size: 56px;
+  }
+
+  .address_style {
+    font-size: 12px;
+    display: grid;
+    columns: 1;
+    gap: 0px;
+    letter-spacing: 0.04em;
+    margin: auto;
+    line-height: 20px;
+  }
+
+  .address_style a {
+    font-size: 12px;
+    line-height: 8px;
+    letter-spacing: 0.04em;
+    text-align: left;
   }
 
   .section_h_first {
