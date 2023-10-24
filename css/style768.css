@@ -228,7 +228,11 @@
   .section_fourth_list {
     margin: auto;
   }
+
   .modal_main {
     width: 408px;
     height: 584px;
+    max-width: 90%;
+    max-height: 97%;
+  }
 }
