@@ -18,7 +18,7 @@ h2,
 h3,
 h4,
 p,
-ul[class],
+/* ul[class], */
 ol[class],
 li,
 figure,
@@ -342,7 +342,7 @@ address {
 .section_third_li {
   background-color: #ffffff;
   max-width: 264px;
-  width: calc((100% - 72px) / 4);
+  width: 264px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -414,6 +414,7 @@ address {
 }
 
 .section_fourth_h_fourth {
+  margin-top: none;
   margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;

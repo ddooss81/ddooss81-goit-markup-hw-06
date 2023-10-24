@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1157px) {
+@media (min-width: 768px) and (max-width: 1158px) {
   .container {
     width: 768px;
     padding: 0 16px;
@@ -197,5 +197,9 @@
 
   .email_foot_btn {
     width: 165px;
+  }
+
+  .section_fourth_list {
+    margin: auto;
   }
 }
