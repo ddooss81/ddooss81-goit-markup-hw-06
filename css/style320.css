@@ -60,7 +60,7 @@
 
   .section_third_li {
     width: 100%;
-    margin: auto 12px;
+    margin: auto;
     justify-content: center;
   }
 
@@ -73,6 +73,7 @@
     display: grid;
     grid-template-columns: repeat(1, 264px);
     margin: auto;
+    gap: 72px;
   }
 
   .fourth_pic {
@@ -83,6 +84,13 @@
   /* section fourth */
   .section_fourth {
     padding: 96px 0;
+  }
+
+  .section_fourth_li {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+      0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+      0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    border: 1px solid rgba(244, 244, 253, 1);
   }
 
   .section_fourth_list {
@@ -102,7 +110,7 @@
   }
   .section_fourth_div {
     width: 288px;
-    padding: 32px 0px;
+    padding: 32px 0px 32px 16px;
     border: none;
   }
 
