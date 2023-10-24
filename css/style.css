@@ -336,10 +336,12 @@ address {
 
 .section_third_list {
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 .section_third_li {
   background-color: #ffffff;
+  max-width: 264px;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -429,6 +431,7 @@ address {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  justify-content: center;
 }
 
 .section_fourth_title {
