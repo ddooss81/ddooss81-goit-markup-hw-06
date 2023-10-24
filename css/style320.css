@@ -4,12 +4,22 @@
     padding: 0 16px;
   }
 
+  .header_nav {
+    padding: 16px 0px;
+  }
+
   .heder_div {
+    box-shadow: none;
     width: 320px;
   }
 
   .logo_start {
     margin-right: 120px;
+  }
+
+  .heder_butoon_menu {
+    position: absolute;
+    right: 16px;
   }
 
   .section_first {
@@ -189,5 +199,19 @@
   .modal_main {
     width: 288px;
     max-width: 97%;
+  }
+
+  .header_menu,
+  .address_style {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
   }
 }
