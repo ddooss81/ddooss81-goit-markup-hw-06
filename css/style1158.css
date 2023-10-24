@@ -32,6 +32,6 @@
 
   .modal_main {
     width: 408px;
-    height: 584px;
+    max-width: 35%;
   }
 }

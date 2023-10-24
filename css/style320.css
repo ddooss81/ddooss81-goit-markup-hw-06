@@ -185,4 +185,9 @@
   .email_foot_btn {
     width: 165px;
   }
+
+  .modal_main {
+    width: 288px;
+    max-width: 97%;
+  }
 }
