@@ -288,6 +288,8 @@
 
   .address_style_modal_heder {
     display: flex;
+    width: 193px;
+    height: 72px;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
@@ -307,6 +309,17 @@
     text-align: left;
     font-style: normal;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 168px 0 0 0;
+  }
+
+  .address_style_modal_heder a {
+    color: #434455;
+    text-decoration: none;
+  }
+
+  .address_style_modal_heder:hover,
+  .address_style_modal_heder:focus {
+    color: #4d5ae5;
   }
 
   /* .nav_list_header_modal {
