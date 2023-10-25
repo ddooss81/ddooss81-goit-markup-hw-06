@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1158px) {
+@media (min-width: 767px) and (max-width: 1158px) {
   .container {
     width: 768px;
     padding: 0 16px;
@@ -245,5 +245,10 @@
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+  }
+  .heder_menu {
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
   }
 }
