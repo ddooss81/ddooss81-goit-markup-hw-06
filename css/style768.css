@@ -1,4 +1,4 @@
-@media (min-width: 767px) and (max-width: 1158px) {
+@media (min-width: 768px) and (max-width: 1157px) {
   .container {
     width: 768px;
     padding: 0 16px;
@@ -177,19 +177,21 @@
   }
 
   .soc_div_footer {
-    padding: 0px 0;
+    padding: 0px 0px 0 24px;
     display: block;
     text-align: center;
     align-items: start;
     justify-content: center;
+    margin: 0 0 0 0;
+    transform: translateY(-20px);
   }
 
   .footer_soc_li {
-    justify-content: center;
+    justify-content: left;
+    padding-left: 16px;
   }
   .p_footer_soc {
     text-align: left;
-    padding-left: 24px;
   }
 
   .footer_email {
