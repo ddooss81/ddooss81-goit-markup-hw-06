@@ -58,7 +58,6 @@
   .second_section_list {
     display: grid;
     grid-template-columns: repeat(2, 356px);
-    width: 356px;
     gap: 72px 24px;
   }
 
@@ -189,7 +188,8 @@
     justify-content: center;
   }
   .p_footer_soc {
-    margin-right: 112px;
+    text-align: left;
+    padding-left: 24px;
   }
 
   .footer_email {
